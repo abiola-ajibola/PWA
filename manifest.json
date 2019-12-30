@@ -1,0 +1,51 @@
+{
+    "name": "Hello World PWA",
+    "short_name": "Hello World",
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "description": "A simple PWA",
+    "theme_color": "#000000",
+    "lang": "en-us",
+    "icons": [
+        {
+            "src": "images/catplainicon_97046(5)48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "images/catplainicon_97046(3)72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "images/catplainicon_97046(2)96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "images/catplainicon_97046(1)144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "images/catplainicon_97046(1)168.png",
+            "sizes": "168x168",
+            "type": "image/png"
+        },
+        {
+            "src": "images/catplainicon_97046(1)192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/catplainicon_97046_256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "images/Android-icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
