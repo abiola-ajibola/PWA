@@ -3,6 +3,7 @@
     "short_name": "Hello World",
     "start_url": "index.html",
     "display": "fullscreen",
+    "background-_color:": "#888",
     "description": "A simple PWA",
     "theme_color": "#000000",
     "lang": "en-us",
