@@ -1,5 +1,5 @@
 let cacheName = 'sample',
-    resources = ['/','/manifest.json', '/scripts/main.js', '/styles/style.css', '/images/Android-icon512.png',
+    resources = ['./','./manifest.json', './scripts/main.js', '/styles/style.css', '/images/Android-icon512.png',
         '/images/catplainicon_97046_256.png', '/images/catplainicon_97046(1)128.png', '/images/catplainicon_97046(1)144.png',
         '/images/catplainicon_97046(1)168.png', '/images/catplainicon_97046(1)192.png', '/images/catplainicon_97046(2)96.png',
         '/images/catplainicon_97046(3)72.png', '/images/catplainicon_97046(4)64.png', '/images/catplainicon_97046(5)48.png',
