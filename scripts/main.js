@@ -21,7 +21,7 @@ window.onload = () => {
         dots[index].classList.add('active');
     }
 
-    /* *************************Makes an image to be visible************************ */
+    /* ************************Makes an image to be visible************************ */
     const show = (index) => {
         image[index].classList.add('show');
     }
