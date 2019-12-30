@@ -1,15 +1,9 @@
-@font-face {
-    font-family: Oswald;
-    src: url('Oswald-Bold.ttf') format('truetype');
-}
-
 html,
 body {
     height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
-    font-family: 'Oswald', sans-serif;
     background-color: #888;
     overflow: hidden;
 }
