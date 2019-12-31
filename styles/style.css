@@ -8,6 +8,14 @@ body {
     overflow: hidden;
 }
 
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-size: 3em;
+}
+
 .next-btn, .previous-btn{
     width: 100px;
     height: 100%;
@@ -27,11 +35,59 @@ body {
 
 .previous-btn:hover {
     background-image: linear-gradient(to right, #0003, transparent);
+    animation-name: prvs;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes prvs {
+    0% {
+        padding-left: 0px;
+    }
+    25% {
+        padding-left: 5px;
+    }
+    50% {
+        padding-left: 10px;
+    }
+    75% {
+        padding-left: 5px;
+    }
+    100% {
+        padding-left: 0px;
+    }
 }
 
 .next-btn:hover{
     background-image: linear-gradient(to right, transparent, #0003);
-}
+    animation-name: nxt;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    }
+
+    @keyframes nxt {
+        0% {
+            padding-right: 0px;
+        }
+
+        25% {
+            padding-right: 5px;
+        }
+
+        50% {
+            padding-right: 10px;
+        }
+
+        75% {
+            padding-right: 5px;
+        }
+
+        100% {
+            padding-right: 0px;
+        }
+    }
 
 .img-slider-container, .img-slider, .img-container, .image {
     width: 100%;
@@ -77,52 +133,4 @@ body {
 
 .active {
     background: #fff6;
-}
-
-.new-next {
-    animation-name: next-slide;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-direction: reverse;
-}
-
-.new-previous {
-    animation-name: previous-slide;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-direction: reverse;
-}
-
-@keyframes next-slide {
-    0% {
-        transform: translateX(0%);
-    }
-
-    50% {
-        transform: translateX(50%);
-    }
-
-    100% {
-        transform: translateX(100%);
-    }
-}
-
-@keyframes previous-slide {
-    100% {
-        transform: translateX(0%);
-    }
-
-    50% {
-        transform: translateX(50%);
-    }
-
-    0% {
-        transform: translateX(100%);
-    }
-}
-
-.old-next{
-    display: block;
 }
