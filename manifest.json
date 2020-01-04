@@ -1,6 +1,6 @@
 {
-    "name": "Hello World PWA",
-    "short_name": "Hello World",
+    "name": "Sample PWA",
+    "short_name": "PWA",
     "start_url": "index.html",
     "display": "fullscreen",
     "background-_color:": "#888",
