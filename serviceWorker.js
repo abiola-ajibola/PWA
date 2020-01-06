@@ -1,4 +1,4 @@
-const filesCache = 'filesCache',
+const filesCache = 'fileCache',
     imagesCache = 'imagesCache',
     imageFiles = ['./images/Android-icon512.png', './images/catplainicon_97046_256.png', './images/catplainicon_97046(1)128.png',
         './images/catplainicon_97046(1)144.png', './images/catplainicon_97046(1)168.png', './images/catplainicon_97046(1)192.png',
@@ -6,7 +6,7 @@ const filesCache = 'filesCache',
         './images/catplainicon_97046(5)48.png', './images/daniel-mirlea-_7IUgAL60nc-unsplash.jpg',
         './images/eberhard-grossgasteiger-TMHL7wald8I-unsplash.jpg', './images/martin-schmidli-mGy1Jjr2e6M-unsplash.jpg',
         './images/raquel-garcia-BAiSZDx4LgE-unsplash.jpg', './images/willian-justen-de-vasconcellos-lzOzsGmAg3s-unsplash.jpg'],
-    resources = ['./', './scripts/main.js', './styles/style.css'],
+    resources = ['./', './index.html', './scripts/main.js', './styles/style.css'],
     cacheList = [filesCache, imagesCache];
 
 self.addEventListener('install', (e) => {
